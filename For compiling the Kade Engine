@@ -1,0 +1,49 @@
+First download The Psych Engine: https://github.com/KadeDev/Kade-Engine/releases/tag/1.6
+Download Haxe: https://haxe.org/download/version/4.1.5/
+And Visual Studio 2019 Community: https://docs.microsoft.com/fr-fr/visualstudio/releases/2019/release-notes
+You can download Visual Studio Code: https://code.visualstudio.com/download
+And Download Git: https://git-scm.com/downloads
+
+In the Command Prompt
+
+Install HaxeFlixel:
+
+1- haxelib install lime
+2- haxelib install openfl
+3- haxelib install flixel
+4- haxelib install actuate
+5- haxelib run lime setup flixel
+6- haxelib run lime setup
+7- haxelib install flixel-tools
+8- haxelib run flixel-tools setup
+9- haxelib update flixel
+
+NinjaMuffin99: https://github.com/ninjamuffin99/Funkin
+
+haxelib install flixel
+haxelib install flixel-addons
+haxelib install flixel-ui
+haxelib install hscript
+haxelib install newgrounds
+haxelib git polymod https://github.com/larsiusprime/polymod.git
+haxelib git faxe https://github.com/uhrobots/faxe
+haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
+haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons
+haxelib git extension-webm https://github.com/KadeDev/extension-webm
+lime rebuild extension-webm <ie. windows, macos, linux>
+
+And Then on the Visual Studio 2019 individual components tab add this
+
+MSVC v142 - VS 2019 C++ x64/x86 build tools
+Windows SDK (10.0.17763.0)
+MSVC v141 - Vs 2017 C++ x64/x86 build tools
+C++ Profiling tools
+C++ CMake tools for windows
+C++ ATL for v42 build tools (x86 & x64)
+
+Go the KadeEngine folder and the bar in the top write cmd.
+Then write lime test windows
+
+And it's finish
